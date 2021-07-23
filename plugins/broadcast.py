@@ -8,7 +8,7 @@ import traceback
 from sample_config import Config
 from database.access_db import db
 from pyrogram import Client as MeG
-from pyrogram.types import Message
+from pyrogram.types import Message, filters
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 
 broadcast_ids = {}
