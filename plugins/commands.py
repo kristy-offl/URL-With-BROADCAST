@@ -4,11 +4,14 @@ if bool(os.environ.get("WEBHOOK", False)):
 else:
     from config import Config
 from translation import Translation
+from database.add_user import AddUserToDatabase
+from database.access_db import db
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(bot, update):
+    await AddUserToDatabase(bot, update)
     await update.reply_text(
         text=Translation.START_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
