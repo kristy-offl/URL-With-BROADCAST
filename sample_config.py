@@ -53,4 +53,8 @@ class Config(object):
 
     # Sql Database url
     DB_URI = os.environ.get("DATABASE_URL", "")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "URLUPLOAD")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
+    MONGODB_URI = os.environ.get("MONGODB_URI", "")
+    
     
