@@ -151,7 +151,8 @@ async def ddl_call_back(bot, update):
                     duration=duration,
                     # performer=response_json["uploader"],
                     # title=response_json["title"],
-                    # reply_markup=reply_markup,
+                    reply_markup=InlineKeyboardMarkup(
+                    [[InlineKeyboardButton=f'📢 Join My Updates Channel 😄',url='https://t.me/HiroshiBots']]),
                     thumb=thumb_image_path,
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
@@ -167,7 +168,8 @@ async def ddl_call_back(bot, update):
                     document=download_directory,
                     thumb=thumb_image_path,
                     caption=description,
-                    # reply_markup=reply_markup,
+                    reply_markup=InlineKeyboardMarkup(
+                    [[InlineKeyboardButton=f'📢 Join My Updates Channel 😄',url='https://t.me/HiroshiBots']]),
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
@@ -200,7 +202,8 @@ async def ddl_call_back(bot, update):
                     width=width,
                     height=height,
                     supports_streaming=True,
-                    # reply_markup=reply_markup,
+                    reply_markup=InlineKeyboardMarkup(
+                    [[InlineKeyboardButton=f'📢 Join My Updates Channel 😄',url='https://t.me/HiroshiBots']]),
                     thumb=thumb_image_path,
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
