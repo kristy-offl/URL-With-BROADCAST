@@ -57,5 +57,5 @@ class Config(object):
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
     MONGODB_URI = os.environ.get("MONGODB_URI", "")
-    
+    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
     
