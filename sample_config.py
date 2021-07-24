@@ -56,5 +56,5 @@ class Config(object):
     SESSION_NAME = os.environ.get("SESSION_NAME", "URLUPLOAD")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
     MONGODB_URI = os.environ.get("MONGODB_URI", "")
-    
+    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
     
