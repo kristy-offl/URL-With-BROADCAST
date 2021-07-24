@@ -35,6 +35,10 @@ async def send_msg(user_id, message):
         return 500, f"{user_id} : {traceback.format_exc()}\n"
 
 @MeG.on_message(filters.private & filters.command("broadcast"))
+async def _broadcast(_, event: Message):
+    await broadcast_handler(event)
+
+
 async def broadcast_handler(m: Message):
     all_users = await db.get_all_users()
     broadcast_msg = m.reply_to_message
