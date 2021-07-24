@@ -74,7 +74,7 @@ async def upgrade(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["about"])
+@Client.on_message(filters.command(["about"])
 async def about_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
