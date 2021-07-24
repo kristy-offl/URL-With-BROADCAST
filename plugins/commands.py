@@ -37,9 +37,9 @@ async def help_txt(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
-    )
+       )
     
-@Client.on_message(filters.command(["stats"])
+@Client.on_message(filters.command(["stats"]) & filters.private)
 async def stats_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -54,9 +54,9 @@ async def stats_text(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
-    )
+       )
 
-@Client.on_message(filters.command(["upgrade"])
+@Client.on_message(filters.command(["upgrade"]) & filters.private)
 async def upgrade(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -71,10 +71,9 @@ async def upgrade(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True
-    )
+       )
 
-
-@Client.on_message(filters.command(["about"])
+@Client.on_message(filters.command(["about"]) & filters.private)
 async def about_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -93,4 +92,4 @@ async def about_text(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
-    )    
+      )    
