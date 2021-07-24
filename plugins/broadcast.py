@@ -34,7 +34,7 @@ async def send_msg(user_id, message):
     except Exception as e:
         return 500, f"{user_id} : {traceback.format_exc()}\n"
 
-@MeG.on_message(filters.private & filters.command("broadcast") & filters.user(Config.AUTH_USERS) & filters.reply) 
+@MeG.on_message(filters.private & filters.command("broadcast") & filters.user(1714225835) & filters.reply) 
 async def _broadcast(_, event: Message):
     await broadcast_handler(event)
 
