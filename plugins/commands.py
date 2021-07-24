@@ -4,6 +4,7 @@ if bool(os.environ.get("WEBHOOK", False)):
 else:
     from config import Config
 from translation import Translation
+from mtb import mtb
 from database.add_user import AddUserToDatabase
 from database.access_db import db
 from pyrogram import Client, filters
