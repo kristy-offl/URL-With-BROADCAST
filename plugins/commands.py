@@ -18,7 +18,7 @@ async def start(bot, update):
         reply_markup=mtb.START_BUTTONS
     )
 
-@Client.on_message(filters.command(["help"])) & filters.private)
+@Client.on_message(filters.command(["help"]) & filters.private)
 async def help_txt(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -39,7 +39,7 @@ async def help_txt(bot, update):
         reply_to_message_id=update.message_id
     )
     
-@Client.on_message(filters.command(["stats"]))
+@Client.on_message(filters.command(["stats"])
 async def stats_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -56,7 +56,7 @@ async def stats_text(bot, update):
         reply_to_message_id=update.message_id
     )
 
-@Client.on_message(filters.command(["upgrade"]))
+@Client.on_message(filters.command(["upgrade"])
 async def upgrade(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -74,7 +74,7 @@ async def upgrade(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["about"]))
+@pyrogram.Client.on_message(pyrogram.filters.command(["about"])
 async def about_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
