@@ -30,17 +30,14 @@ Bᴜᴛ ɪᴛ's Nᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ 😜
 """
   
   ABOUT_TXT = """
-  
-<b>🎆My Name : <a href='https://t.me/URLHiroshiBot'>URL Uploader Hiroshi Bot</a></b>\n
-<b>👩‍🦽Version : <a href='https://t.me/URLHiroshiBot'>0.9.2 beta</a></b>\n
-<b>⛑Source : <a href='https://t.me/WantSourceCode'>Click Here</a></b>\n
-<b>⚙️Server : <a href='https://heroku.com'>Heroku</a></b>\n
-<b>🛡Library : <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>\n
-<b>🪓Language : <a href='https://www.python.org'>Python 3.9.4</a></b>\n
-<b>🎉Developer : <a href='https://t.me/Itz_Me_Malayaali'>✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯</a></b>\n
-<b>🚀Channel : <a href='https://t.me/HiroshiBots'>𝗛𝗶𝗿𝗼𝘀𝗵𝗶 𝗕𝗼𝘁𝘀</a></b>\n
-"""
-  
+**🤖 Sᴏᴍᴇᴛʜɪɴɢ Aʙᴏᴜᴛ Mᴇ
+
+• Mʏ Nᴀᴍᴇ : Uʀʟ Uᴘʟᴏᴀᴅᴇʀ HB
+• Vᴇʀsɪᴏɴ : 𝟶.𝟿.𝟸 (Bᴇᴛᴀ) 
+• Mʏ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ : Hɪʀᴏsʜɪ Bᴏᴛs 
+• Mʏ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : Hɪʀᴏsʜɪ Bᴏᴛs Sᴜᴘᴘᴏʀᴛ
+• Dᴇᴠᴇʟᴏᴘᴇʀ : ✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯**
+""
   START_BUTTONS = InlineKeyboardMarkup(
     [[
       InlineKeyboardButton("💁🏻 𝑴𝒚 𝑭𝒂𝒕𝒉𝒆𝒓", url="https://t.me/Itz_Me_Malayali"),
