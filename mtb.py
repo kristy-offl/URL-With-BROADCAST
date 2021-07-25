@@ -37,7 +37,7 @@ Bᴜᴛ ɪᴛ's Nᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ 😜
 • Mʏ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ : Hɪʀᴏsʜɪ Bᴏᴛs 
 • Mʏ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : Hɪʀᴏsʜɪ Bᴏᴛs Sᴜᴘᴘᴏʀᴛ
 • Dᴇᴠᴇʟᴏᴘᴇʀ : ✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯**
-""
+"""
   START_BUTTONS = InlineKeyboardMarkup(
     [[
       InlineKeyboardButton("💁🏻 𝑴𝒚 𝑭𝒂𝒕𝒉𝒆𝒓", url="https://t.me/Itz_Me_Malayali"),
