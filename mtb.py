@@ -4,28 +4,29 @@ class mtb(object):
   
   START_TXT = """
   
-<i>Hello {},👋
+<b>Hʏ Bʀᴜʜ  {},👋
 
-I'm a Telegram URL Uploader Bot
+I'ᴍ ᴀ Tᴇʟᴇɢʀᴀᴍ Uʀʟ Uᴘʟᴏᴀᴅ Bᴏᴛ 🤖
 
-I Can Upload Direct Link To Telegram Without Using Your Data File Limit Is 1.95GB
+I Cᴀɴ Uᴘʟᴏᴀᴅ Dɪʀᴇᴄᴛ Lɪɴᴋ Tᴏ Tᴇʟᴇɢʀᴀᴍ Wɪᴛʜᴏᴜᴛ Usɪɴɢ Yᴏᴜʀ Dᴀᴛᴀ Fɪʟᴇ Lɪᴍɪᴛ Is 𝟷.𝟿𝟻GB
 
 Use help Button For More Details
 
-🧨Devoloped & Maintained By : : <a href='https://t.me/Itz_Me_Malayali'>✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯ 『★Tᴍ★』 #Broken Sed Life 💔</a></i>
+🧨Dᴇᴠᴏʟᴏᴘᴇᴅ & Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :- <a href='https://t.me/Itz_Me_Malayali'>✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯ 『★Tᴍ★』 #Broken Sed Life 💔</a></b>
   """
   HELP_TXT = """
   
-  **Hey 🙋‍♂️It's Not Complicated To Use Me.
+  **Hy Bro {} It's Not Complicated To Use Me. 😌
 
-I Can Support zippyshare, filesim, hxfile, fembed, mediafire, sbembed, streamtape, uservideo support Too
+Cᴜʀʀᴇɴᴛʟʏ I'ᴍ Sᴜᴘᴘᴏʀᴛɪɴɢ MᴇᴅɪᴀFɪʟᴇ Lɪɴᴋs Tᴏᴏ 
+Bᴜᴛ ɪᴛ's Nᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ 😜
 
-➩ Send Me The Custom Thumbnail To Save It Permanently.
-➩ Now Send Me The Ytdl Or Direct Link.
-➩ Select The Desired Option.
-➩ Then Be Relaxed Your File Will Be Uploaded Soon..
+➩ Sᴇɴᴅ Mᴇ Tʜᴇ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Tᴏ Sᴀᴠᴇ Iᴛ Pᴇʀᴍᴀɴᴇɴᴛʟʏ.
+➩ Nᴏᴡ Sᴇɴᴅ Mᴇ Tʜᴇ Yᴛᴅʟ Oʀ Dɪʀᴇᴄᴛ Lɪɴᴋ.
+➩ Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇsɪʀᴇᴅ Oᴘᴛɪᴏɴ.
+➩ Tʜᴇɴ Bᴇ Rᴇʟᴀxᴇᴅ Yᴏᴜʀ Fɪʟᴇ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅᴇᴅ Sᴏᴏɴ..
 
-🎉Powerded By : @HiroshiBots**
+😇 Jᴏɪɴ :- <a href='https://t.me/HiroshiBots'>HɪʀᴏsʜɪBᴏᴛs</a> &  <a href='https://t.me/HiroshiBotsSupport'>HɪʀᴏsʜɪBᴏᴛsSᴜᴘᴘᴏʀᴛ</a>
 """
   
   ABOUT_TXT = """
