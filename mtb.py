@@ -10,13 +10,13 @@ I'ᴍ ᴀ Tᴇʟᴇɢʀᴀᴍ Uʀʟ Uᴘʟᴏᴀᴅ Bᴏᴛ 🤖
 
 I Cᴀɴ Uᴘʟᴏᴀᴅ Dɪʀᴇᴄᴛ Lɪɴᴋ Tᴏ Tᴇʟᴇɢʀᴀᴍ Wɪᴛʜᴏᴜᴛ Usɪɴɢ Yᴏᴜʀ Dᴀᴛᴀ Fɪʟᴇ Lɪᴍɪᴛ Is 𝟷.𝟿𝟻GB
 
-Use help Button For More Details
+Usᴇ ʜᴇʟᴘ Bᴜᴛᴛᴏɴ Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟ
 
 🧨Dᴇᴠᴏʟᴏᴘᴇᴅ & Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :- <a href='https://t.me/Itz_Me_Malayali'>✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯ 『★Tᴍ★』 #Broken Sed Life 💔</a></b>
   """
   HELP_TXT = """
   
-  **Hy Bro {} It's Not Complicated To Use Me. 😌
+**Hʏ Bʀᴏ {} Iᴛ's Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ Tᴏ Usᴇ Mᴇ. 😌
 
 Cᴜʀʀᴇɴᴛʟʏ I'ᴍ Sᴜᴘᴘᴏʀᴛɪɴɢ MᴇᴅɪᴀFɪʟᴇ Lɪɴᴋs Tᴏᴏ 
 Bᴜᴛ ɪᴛ's Nᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ 😜
@@ -26,7 +26,7 @@ Bᴜᴛ ɪᴛ's Nᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ 😜
 ➩ Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇsɪʀᴇᴅ Oᴘᴛɪᴏɴ.
 ➩ Tʜᴇɴ Bᴇ Rᴇʟᴀxᴇᴅ Yᴏᴜʀ Fɪʟᴇ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅᴇᴅ Sᴏᴏɴ..
 
-😇 Jᴏɪɴ :- <a href='https://t.me/HiroshiBots'>HɪʀᴏsʜɪBᴏᴛs</a> &  <a href='https://t.me/HiroshiBotsSupport'>HɪʀᴏsʜɪBᴏᴛsSᴜᴘᴘᴏʀᴛ</a>
+😇 Jᴏɪɴ :- <a href='https://t.me/HiroshiBots'>HɪʀᴏsʜɪBᴏᴛs</a> &  <a href='https://t.me/HiroshiBotsSupport'>HɪʀᴏsʜɪBᴏᴛsSᴜᴘᴘᴏʀᴛ</a>**
 """
   
   ABOUT_TXT = """
