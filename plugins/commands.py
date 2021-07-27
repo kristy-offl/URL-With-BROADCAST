@@ -68,6 +68,7 @@ async def stats_text(bot, update):
             f'<b>RAM:</b> {memory}%\n' \
             f'<b>DISK:</b> {disk}%'
     sendMessage(stats, context.bot, update)
+   )
 
 @Client.on_message(filters.command(["upgrade"]) & filters.private)
 async def upgrade(bot, update):
