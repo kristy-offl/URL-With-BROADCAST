@@ -2,9 +2,6 @@ import shutil, psutil
 import signal
 import os
 
-import  dispatcher, updater, botStartTime
-import status, get_readable_file_size, get_readable_time
-
 def stats(update, context):
     currentTime = get_readable_time(time.time() - botStartTime)
     total, used, free = shutil.disk_usage('.')
