@@ -47,7 +47,7 @@ async def help_txt(bot, update):
 async def stats_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
-        text='def stats(update, context):
+        text=
     currentTime = get_readable_time(time.time() - botStartTime)
     total, used, free = shutil.disk_usage('.')
     total = get_readable_file_size(total)
@@ -67,7 +67,6 @@ async def stats_text(bot, update):
             f'<b>CPU:</b> {cpuUsage}%\n' \
             f'<b>RAM:</b> {memory}%\n' \
             f'<b>DISK:</b> {disk}%'
-    sendMessage(stats, context.bot, update)
    )
 
 @Client.on_message(filters.command(["upgrade"]) & filters.private)
