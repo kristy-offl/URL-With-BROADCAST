@@ -46,13 +46,11 @@ async def help_txt(bot, update):
 @Client.on_message(filters.command(["stats"]) & filters.private)
 async def stats_text(bot, update):
     await bot.send_message(
-        chat_id=update.chat.id,
-        text="""
-uptime = time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - bot_start_time))
-update = datetime.datetime.now(pytz.timezone('Asia/Kolkata')).strftime('%I:%M:%S %p')
-       """parse_mode="html",
-           reply_to_message_id=update.message_id,
-          disable_web_page_preview=True
+         chat_id=update.chat.id,
+         text="uptime = time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - bot_start_time)),
+         parse_mode="html",
+         reply_to_message_id=update.message_id,
+         disable_web_page_preview=True
         )
 
 @Client.on_message(filters.command(["upgrade"]) & filters.private)
