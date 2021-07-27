@@ -3,7 +3,7 @@ import signal
 import os
 
 from plugins import status, dispatcher, updater, botStartTime
-from plugins import status get_readable_file_size, get_readable_time
+from plugins import status, get_readable_file_size, get_readable_time
 
 def stats(update, context):
     currentTime = get_readable_time(time.time() - botStartTime)
