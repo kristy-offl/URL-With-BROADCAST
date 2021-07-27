@@ -47,7 +47,10 @@ async def help_txt(bot, update):
 async def stats_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.STATS_TEXT,
+        text="""
+uptime = time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - bot_start_time))
+update = datetime.datetime.now(pytz.timezone('Asia/Kolkata')).strftime('%I:%M:%S %p')
+       """
         parse_mode="html",
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True
