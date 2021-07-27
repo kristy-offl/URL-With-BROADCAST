@@ -1,6 +1,7 @@
 import shutil, psutil
 import signal
 import os
+
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
@@ -68,7 +69,8 @@ def stats(update, context):
             f'<b>RAM:</b> {memory}%\n' \
             f'<b>DISK:</b> {disk}%'
     sendMessage(stats, context.bot, update),
-        reply_markup=InlineKeyboardMarkup(
+"""
+reply_markup=InlineKeyboardMarkup(
             [
                  [
                      InlineKeyboardButton('⚙️ 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', url='https://t.me/HiroshiBots')
@@ -117,3 +119,4 @@ async def about_text(bot, update):
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
       )    
+
