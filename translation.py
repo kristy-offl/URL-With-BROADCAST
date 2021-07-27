@@ -75,6 +75,29 @@ You can use /delthumb to delete the auto-generated thumbnail."""
 ╰─────────[ <a href='https://t.me/HiroshiBots'>𝑯𝒊𝒓𝒐𝒔𝒉𝒊 𝑩𝒐𝒕𝒔</a> ]────────
     """
     CHECKING_LINK = "<code>Analysing Your Link</code>⏳"
+    STATS_TEXT = """
+def stats(update, context):
+    currentTime = get_readable_time(time.time() - botStartTime)
+    total, used, free = shutil.disk_usage('.')
+    total = get_readable_file_size(total)
+    used = get_readable_file_size(used)
+    free = get_readable_file_size(free)
+    sent = get_readable_file_size(psutil.net_io_counters().bytes_sent)
+    recv = get_readable_file_size(psutil.net_io_counters().bytes_recv)
+    cpuUsage = psutil.cpu_percent(interval=0.5)
+    memory = psutil.virtual_memory().percent
+    disk = psutil.disk_usage('/').percent
+    stats = f'<b>Bot Uptime:</b> {currentTime}\n' \
+            f'<b>Total Disk Space:</b> {total}\n' \
+            f'<b>Used:</b> {used}  ' \
+            f'<b>Free:</b> {free}\n\n' \
+            f'📊Data Usage📊\n<b>Upload:</b> {sent}\n' \
+            f'<b>Download:</b> {recv}\n\n' \
+            f'<b>CPU:</b> {cpuUsage}%\n' \
+            f'<b>RAM:</b> {memory}%\n' \
+            f'<b>DISK:</b> {disk}%'
+    sendMessage(stats, context.bot, update)
+"""
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
