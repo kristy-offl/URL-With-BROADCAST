@@ -47,8 +47,7 @@ async def help_txt(bot, update):
 async def stats_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
-        text="""
-def stats(update, context):
+        text=f'def stats(update, context):
     currentTime = get_readable_time(time.time() - botStartTime)
     total, used, free = shutil.disk_usage('.')
     total = get_readable_file_size(total)
@@ -68,15 +67,7 @@ def stats(update, context):
             f'<b>CPU:</b> {cpuUsage}%\n' \
             f'<b>RAM:</b> {memory}%\n' \
             f'<b>DISK:</b> {disk}%'
-    sendMessage(stats, context.bot, update),
-"""
-reply_markup=InlineKeyboardMarkup(
-            [
-                 [
-                     InlineKeyboardButton('⚙️ 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', url='https://t.me/HiroshiBots')
-                 ]
-             ]
-         ),
+    sendMessage(stats, context.bot, update)
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
