@@ -61,22 +61,8 @@ Made by @FayasNoushad
 Send your custum thumbnail if required.
 You can use /delthumb to delete the auto-generated thumbnail."""
     UPGRADE_TEXT = "𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙨𝙝𝙤𝙬𝙞𝙣𝙜 𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 𝙞𝙣 𝙙𝙤𝙣𝙖𝙩𝙞𝙤𝙣.\n\n𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒓 𝑩𝒚 𝑪𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝑩𝒆𝒍𝒐𝒘 𝑩𝒖𝒕𝒕𝒐𝒏😊"
-    STATS_TEXT = """
-╭─────────[ <a href='https://t.me/HiroshiBots'>𝑩𝒐𝒕 𝑺𝒕𝒂𝒕𝒔</a> ]─────────
-│
-├⏱️ 𝑼𝒑 𝑻𝒊𝒎𝒆 : 15Hrs : 21Mins : 12Sec
-│
-├📦 𝑻𝒐𝒕𝒂𝒍 𝑫𝒊𝒔𝒌 𝑺𝒑𝒂𝒄𝒆 : 500.42 GB
-│
-├📀 𝑼𝒔𝒆𝒅 : 181.71 GB
-│
-├💿 𝑭𝒓𝒆𝒆 : 293.27 GB
-│
-╰─────────[ <a href='https://t.me/HiroshiBots'>𝑯𝒊𝒓𝒐𝒔𝒉𝒊 𝑩𝒐𝒕𝒔</a> ]────────
-    """
     CHECKING_LINK = "<code>Analysing Your Link</code>⏳"
     STATS_TEXT = """
-
     def stats(update, context):
     currentTime = get_readable_time(time.time() - botStartTime)
     total, used, free = shutil.disk_usage('.')
@@ -96,8 +82,8 @@ You can use /delthumb to delete the auto-generated thumbnail."""
             f'<b>Download:</b> {recv}\n\n' \
             f'<b>CPU:</b> {cpuUsage}%\n' \
             f'<b>RAM:</b> {memory}%\n' \
-            f'<b>DISK:</b> {disk}%
-"""
+            f'<b>DISK:</b> {disk}%'
+    """
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
