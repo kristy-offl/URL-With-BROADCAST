@@ -76,7 +76,6 @@ You can use /delthumb to delete the auto-generated thumbnail."""
     """
     CHECKING_LINK = "<code>Analysing Your Link</code>⏳"
     STATS_TEXT = """
-def stats(update, context):
     currentTime = get_readable_time(time.time() - botStartTime)
     total, used, free = shutil.disk_usage('.')
     total = get_readable_file_size(total)
@@ -96,7 +95,6 @@ def stats(update, context):
             f'<b>CPU:</b> {cpuUsage}%\n' \
             f'<b>RAM:</b> {memory}%\n' \
             f'<b>DISK:</b> {disk}%'
-    sendMessage(stats, context.bot, update)
 """
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
