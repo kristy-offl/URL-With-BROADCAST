@@ -2,6 +2,8 @@ import shutil, psutil
 import signal
 import os
 
+from pyrogram import Client, filters
+
 @Client.on_message(filters.command(["stats"]) & filters.private)
 async def stats_text(bot, update):
     await bot.send_message(
