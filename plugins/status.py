@@ -17,3 +17,4 @@ async def stats_text(bot, update):
          disable_web_page_preview=True
         )
 
+
