@@ -6,6 +6,8 @@ import os
 from pyrogram import Client, filters
 
 bot_start_time = time.time()
+current_time = datetime.datetime.now(pytz.timezone('Asia/Kolkata')).strftime('%I:%M:%S %p')
+
 
 @Client.on_message(filters.command(["stats"]) & filters.private)
 async def stats_text(bot, update):
