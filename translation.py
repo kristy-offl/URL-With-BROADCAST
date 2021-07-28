@@ -62,17 +62,6 @@ Send your custum thumbnail if required.
 You can use /delthumb to delete the auto-generated thumbnail."""
     UPGRADE_TEXT = "𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙨𝙝𝙤𝙬𝙞𝙣𝙜 𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 𝙞𝙣 𝙙𝙤𝙣𝙖𝙩𝙞𝙤𝙣.\n\n𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒓 𝑩𝒚 𝑪𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝑩𝒆𝒍𝒐𝒘 𝑩𝒖𝒕𝒕𝒐𝒏😊"
     CHECKING_LINK = "<code>Analysing Your Link</code>⏳"
-    STATS_TEXT = """
-    stats = f'<b>Bot Uptime:</b> {currentTime}\n' \
-            f'<b>Total Disk Space:</b> {total}\n' \
-            f'<b>Used:</b> {used}  ' \
-            f'<b>Free:</b> {free}\n\n' \
-            f'📊Data Usage📊\n<b>Upload:</b> {sent}\n' \
-            f'<b>Download:</b> {recv}\n\n' \
-            f'<b>CPU:</b> {cpuUsage}%\n' \
-            f'<b>RAM:</b> {memory}%\n' \
-            f'<b>DISK:</b> {disk}%'
-    """
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
