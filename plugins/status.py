@@ -2,24 +2,13 @@ import shutil, psutil
 import signal
 import os
 
-def stats(update, context):
-    currentTime = get_readable_time(time.time() - botStartTime)
-    total, used, free = shutil.disk_usage('.')
-    total = get_readable_file_size(total)
-    used = get_readable_file_size(used)
-    free = get_readable_file_size(free)
-    sent = get_readable_file_size(psutil.net_io_counters().bytes_sent)
-    recv = get_readable_file_size(psutil.net_io_counters().bytes_recv)
-    cpuUsage = psutil.cpu_percent(interval=0.5)
-    memory = psutil.virtual_memory().percent
-    disk = psutil.disk_usage('/').percent
-    stats = f'<b>Bot Uptime:</b> {currentTime}\n' \
-            f'<b>Total Disk Space:</b> {total}\n' \
-            f'<b>Used:</b> {used}  ' \
-            f'<b>Free:</b> {free}\n\n' \
-            f'📊Data Usage📊\n<b>Upload:</b> {sent}\n' \
-            f'<b>Download:</b> {recv}\n\n' \
-            f'<b>CPU:</b> {cpuUsage}%\n' \
-            f'<b>RAM:</b> {memory}%\n' \
-            f'<b>DISK:</b> {disk}%'
-    sendMessage(stats, context.bot, update)
+@Client.on_message(filters.command(["stats"]) & filters.private)
+async def stats_text(bot, update):
+    await bot.send_message(
+         chat_id=update.chat.id,
+         uptime = time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - bot_start_time)),
+         parse_mode="html",
+         reply_to_message_id=update.message_id,
+         disable_web_page_preview=True
+        )
+
