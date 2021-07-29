@@ -11,7 +11,7 @@ bot_start_time = time.time()
 async def stats_text(bot, update):
     await bot.send_message(
          chat_id=update.chat.id,
-         (uptime = time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - bot_start_time)),
+         uptime = time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - bot_start_time,
          parse_mode="html",
          reply_to_message_id=update.message_id,
          disable_web_page_preview=True
