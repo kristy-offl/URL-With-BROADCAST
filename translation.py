@@ -61,8 +61,8 @@ Made by @FayasNoushad
 Send your custum thumbnail if required.
 You can use /delthumb to delete the auto-generated thumbnail."""
     UPGRADE_TEXT = "𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙨𝙝𝙤𝙬𝙞𝙣𝙜 𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 𝙞𝙣 𝙙𝙤𝙣𝙖𝙩𝙞𝙤𝙣.\n\n𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒓 𝑩𝒚 𝑪𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝑩𝒆𝒍𝒐𝒘 𝑩𝒖𝒕𝒕𝒐𝒏😊"
-    CHECKING_LINK = "<code>Analysing Your Link</code>⏳"
-    BANNED_USER_TEXT = "<code>You are Banned!</code>"
+    CHECKING_LINK = "<code>Cʜᴇᴄᴋɪɴɢ Yᴏᴜʀ Lɪɴᴋ</code>⏳"
+    BANNED_USER_TEXT = "<code>Yᴏᴜʀ Aʀᴇ Bᴀɴɴᴇᴅ</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
     DOWNLOAD_START = "<code>Downloading To My server Please Wait...</code>"    
