@@ -56,12 +56,14 @@ Made by @FayasNoushad
         InlineKeyboardButton('Close', callback_data='close')
         ]]
     )
-    FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
+    FORMAT_SELECTION = """<b>Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇsɪʀᴇᴅ Fᴏʀᴍᴀᴛ
     
-Send your custum thumbnail if required.
-You can use /delthumb to delete the auto-generated thumbnail."""
+🎞 - Sᴛʀᴇᴀᴍ Fᴏʀᴍᴀᴛ (Lᴇғᴛ Sɪᴅᴇ)
+📁 - Fɪʟᴇ ғᴏʀᴍᴀᴛ (Rɪɢʜᴛ Sɪᴅᴇ)
+
+💞 Share :- @HiroshiBots</b>"""
     UPGRADE_TEXT = "𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙨𝙝𝙤𝙬𝙞𝙣𝙜 𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 𝙞𝙣 𝙙𝙤𝙣𝙖𝙩𝙞𝙤𝙣.\n\n𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒓 𝑩𝒚 𝑪𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝑩𝒆𝒍𝒐𝒘 𝑩𝒖𝒕𝒕𝒐𝒏😊"
-    CHECKING_LINK = "<code>Cʜᴇᴄᴋɪɴɢ Yᴏᴜʀ Lɪɴᴋ</code>⏳"
+    CHECKING_LINK = "<code>Checking Your Linkcode>⏳"
     BANNED_USER_TEXT = "<code>Yᴏᴜʀ Aʀᴇ Bᴀɴɴᴇᴅ</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
