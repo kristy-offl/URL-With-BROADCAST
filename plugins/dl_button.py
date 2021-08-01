@@ -274,12 +274,8 @@ File Size: {}""".format(url, humanbytes(total_length))
 • Completed :-  {}
 • Size :-  {}
 • Speed :-  {}
-• ETA :-  {}</b>""".format(
-    url,
-    humanbytes(total_length),
-    humanbytes(downloaded),
-    TimeFormatter(estimated_total_time)
-)
+• ETA :-  {}</b>""".format(url,humanbytes(total_length),humanbytes(downloaded),TimeFormatter(estimated_total_time)
+   )
                         if current_message != display_message:
                             await bot.edit_message_text(
                                 chat_id,
