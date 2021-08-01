@@ -20,6 +20,8 @@ else:
     from config import Config
 
 from translation import Translation
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
