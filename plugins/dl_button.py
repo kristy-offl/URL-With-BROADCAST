@@ -269,13 +269,15 @@ File Size: {}""".format(url, humanbytes(total_length))
                         (total_length - downloaded) / speed) * 1000
                     estimated_total_time = elapsed_time + time_to_completion
                     try:
-                        current_message = """<b> Download Into My Server 📥
-• Percentage :-  {}
-• Completed :-  {}
-• Size :-  {}
-• Speed :-  {}
-• ETA :-  {}</b>""".format(url,humanbytes(total_length),humanbytes(downloaded),TimeFormatter(estimated_total_time)
-   )
+                        current_message = """**Download Status**
+**🔮 Given URL** : {}
+**📍 Size** : {}
+**📥 Downloaded** : {}
+**⏰ Estimated Time** : {}""".format( url,
+    humanbytes(total_length),
+    humanbytes(downloaded),
+    TimeFormatter(estimated_total_time)
+)
                         if current_message != display_message:
                             await bot.edit_message_text(
                                 chat_id,
