@@ -28,7 +28,7 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes, TimeFormatter
 
-@Client.on_message(filters.private & filters.regex(pattern=".*http.*"))
+@Client.on_message(filters.private & filters.regex(pattern=".*https.*"))
 async def echo(bot, update):
     if Config.LOG_CHANNEL:
         try:
