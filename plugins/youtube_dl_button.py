@@ -342,8 +342,8 @@ async def youtube_dl_call_back(bot, update):
                         media=media_album_p
                     )
             try:
-                shutil.rmtree(tmp_directory_for_each_user)
-                except:
+                shutil.rmtree(tmp_directory_for_each_user)   
+            except:
                 pass 
             try:
                 os.remove(download_directory)
