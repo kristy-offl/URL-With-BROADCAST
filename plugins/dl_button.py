@@ -27,6 +27,22 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes, TimeFormatter
 
+@Client.on_message(filters.private & filters.regex(pattern=".*http.*"))
+async def echo(bot, update):
+    if Config.LOG_CHANNEL:
+        try:
+            log_message = await message.forward(Config.LOG_CHANNEL)
+            log_info = "Message Sender Information\n"
+            log_info += "\nFirst Name: " + update.from_user.first_name
+            log_info += "\nUser ID: " + update.from_user.id
+            if update.from_user.username:
+                log_info += "\nUsername: " + update.from_user.username
+            log_info += "\nUser Link: " + update.from_user.mention
+            await log_message.reply_text(
+                text=log_info,
+                disable_web_page_preview=True,
+                quote=True
+            )
 
 async def ddl_call_back(bot, update):
     cb_data = update.data
