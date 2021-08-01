@@ -63,7 +63,7 @@ Made by @FayasNoushad
 
 💞 Share :- @HiroshiBots</b>"""
     UPGRADE_TEXT = "𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙨𝙝𝙤𝙬𝙞𝙣𝙜 𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 𝙞𝙣 𝙙𝙤𝙣𝙖𝙩𝙞𝙤𝙣.\n\n𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒓 𝑩𝒚 𝑪𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝑩𝒆𝒍𝒐𝒘 𝑩𝒖𝒕𝒕𝒐𝒏😊"
-    CHECKING_LINK = "<code>Checking Your Linkcode>⏳"
+    CHECKING_LINK = "<b>Checking Your Link</b>⏳"
     BANNED_USER_TEXT = "<code>Yᴏᴜʀ Aʀᴇ Bᴀɴɴᴇᴅ</code>"
     SET_CUSTOM_USERNAME_PASSWORD = ""
     DOWNLOAD_START = "<b>Downloading To My server Please Wait...</b>"    
