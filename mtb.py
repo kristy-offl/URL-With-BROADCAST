@@ -12,7 +12,6 @@ I Cᴀɴ Uᴘʟᴏᴀᴅ Dɪʀᴇᴄᴛ Lɪɴᴋ Tᴏ Tᴇʟᴇɢʀᴀᴍ Wɪᴛ
 
 Nᴏᴛᴇ :- Yᴏᴜ Mᴜsᴛ Sᴇɴᴅ ᴀ Tʜᴜᴍʙɴᴀɪʟ Tᴏ Mᴀᴋᴇ Iᴛ Pᴇʀᴍᴀɴᴇɴᴛ​ & Usᴇ ʜᴇʟᴘ Bᴜᴛᴛᴏɴ Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟ
 
-
 🧨Dᴇᴠᴏʟᴏᴘᴇᴅ & Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :- <a href='https://t.me/Itz_Me_Malayali'>✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯ 『★Tᴍ★』 #Broken Sed Life 💔</a></b>
   """
   HELP_TXT = """
