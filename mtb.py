@@ -10,23 +10,21 @@ I'ᴍ ᴀ Tᴇʟᴇɢʀᴀᴍ Uʀʟ Uᴘʟᴏᴀᴅ Bᴏᴛ 🤖
 
 I Cᴀɴ Uᴘʟᴏᴀᴅ Dɪʀᴇᴄᴛ Lɪɴᴋ Tᴏ Tᴇʟᴇɢʀᴀᴍ Wɪᴛʜᴏᴜᴛ Usɪɴɢ Yᴏᴜʀ Dᴀᴛᴀ Fɪʟᴇ Lɪᴍɪᴛ Is 𝟷.𝟿𝟻GB
 
-Usᴇ ʜᴇʟᴘ Bᴜᴛᴛᴏɴ Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟ
+Nᴏᴛᴇ :- Yᴏᴜ Mᴜsᴛ Sᴇɴᴅ ᴀ Tʜᴜᴍʙɴᴀɪʟ Tᴏ Mᴀᴋᴇ Iᴛ Pᴇʀᴍᴀɴᴇɴᴛ​ & Usᴇ ʜᴇʟᴘ Bᴜᴛᴛᴏɴ Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟ
+
 
 🧨Dᴇᴠᴏʟᴏᴘᴇᴅ & Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :- <a href='https://t.me/Itz_Me_Malayali'>✯°• Kʀɪsᴛʏ Oꜰꜰᴄɪᴀʟ •°✯ 『★Tᴍ★』 #Broken Sed Life 💔</a></b>
   """
   HELP_TXT = """
   
-**Hʏ Bʀᴏ {} Iᴛ's Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ Tᴏ Usᴇ Mᴇ. 😌
-
-Cᴜʀʀᴇɴᴛʟʏ I'ᴍ Sᴜᴘᴘᴏʀᴛɪɴɢ MᴇᴅɪᴀFɪʟᴇ Lɪɴᴋs Tᴏᴏ 
-Bᴜᴛ ɪᴛ's Nᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ 😜
+<b>Hʏ Bʀᴏ {} Iᴛ's Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ Tᴏ Usᴇ Mᴇ. 😌
 
 ➩ Sᴇɴᴅ Mᴇ Tʜᴇ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Tᴏ Sᴀᴠᴇ Iᴛ Pᴇʀᴍᴀɴᴇɴᴛʟʏ.
 ➩ Nᴏᴡ Sᴇɴᴅ Mᴇ Tʜᴇ Yᴛᴅʟ Oʀ Dɪʀᴇᴄᴛ Lɪɴᴋ.
 ➩ Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇsɪʀᴇᴅ Oᴘᴛɪᴏɴ.
 ➩ Tʜᴇɴ Bᴇ Rᴇʟᴀxᴇᴅ Yᴏᴜʀ Fɪʟᴇ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅᴇᴅ Sᴏᴏɴ..
 
-😇 Jᴏɪɴ :- <a href='https://t.me/HiroshiBots'>HɪʀᴏsʜɪBᴏᴛs</a> &  <a href='https://t.me/HiroshiBotsSupport'>HɪʀᴏsʜɪBᴏᴛsSᴜᴘᴘᴏʀᴛ</a>**
+😇 Jᴏɪɴ :- <a href='https://t.me/HiroshiBots'>HɪʀᴏsʜɪBᴏᴛs</a> &  <a href='https://t.me/HiroshiBotsSupport'>HɪʀᴏsʜɪBᴏᴛsSᴜᴘᴘᴏʀᴛ</a></b>
 """
   
   ABOUT_TXT = """
