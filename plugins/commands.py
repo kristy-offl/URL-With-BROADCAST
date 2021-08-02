@@ -64,7 +64,7 @@ async def upgrade(bot, update):
 async def about_text(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.ABOUT_TEXT,
+        text=mtb.ABOUT_TXT,
         reply_markup=InlineKeyboardMarkup(
             [
                  [
